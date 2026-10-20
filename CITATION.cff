@@ -3,6 +3,14 @@ message: "If you use this software, please cite it as below."
 type: software
 title: "Code for: Integrative Single-Cell Transcriptomics and Explainable AI for Disease Mechanism and Biomarker Discovery in Triple-Negative Breast Cancer"
 version: 1.0.0
+doi: 10.5281/zenodo.23494607
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23494607
+    description: "Zenodo archive of release v1.0.0"
+  - type: doi
+    value: 10.5281/zenodo.23494606
+    description: "Zenodo concept DOI (all versions)"
 date-released: "2026-10-20"
 license: MIT
 repository-code: "https://github.com/tanjidnijum02/tnbc-invasion-scrna-xai"

@@ -1,5 +1,7 @@
 # Invasive vs non-invasive TNBC cells: single-cell transcriptomics and explainable machine learning
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23494607.svg)](https://doi.org/10.5281/zenodo.23494607)
+
 Code and results for the manuscript:
 
 > **Integrative Single-Cell Transcriptomics and Explainable AI for Disease Mechanism and Biomarker Discovery in Triple-Negative Breast Cancer**
@@ -82,7 +84,12 @@ without a seed; STRING hub-gene degrees were entered manually and the STRING set
 
 ## Citation
 
-See [`CITATION.cff`](CITATION.cff). Please also cite the data generators (GSE329526) and the ClonMapper method
+See [`CITATION.cff`](CITATION.cff):
+
+> Huda T, Biswas S. Code for: Integrative Single-Cell Transcriptomics and Explainable AI for Disease Mechanism and Biomarker
+> Discovery in Triple-Negative Breast Cancer (v1.0.0). Zenodo; 2026. https://doi.org/10.5281/zenodo.23494607
+
+ Please also cite the data generators (GSE329526) and the ClonMapper method
 (Gutierrez et al., Nat Cancer 2021, doi:10.1038/s43018-021-00222-8).
 
 ## Licence
