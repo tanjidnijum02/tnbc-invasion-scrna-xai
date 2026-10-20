@@ -1,0 +1,12 @@
+{
+  "title": "Code for: Integrative Single-Cell Transcriptomics and Explainable AI for Disease Mechanism and Biomarker Discovery in Triple-Negative Breast Cancer",
+  "upload_type": "software",
+  "description": "Original and sample-aware analysis code and results for a single-cell RNA-seq and explainable machine-learning (XGBoost + SHAP) study of invasive versus non-invasive MDA-MB-231 triple-negative breast cancer cells (GEO GSE329526). Includes sample-level differential expression, sample-grouped cross-validation, held-out SHAP and GSEA. Input data are public and not included.",
+  "creators": [
+    {"name": "Huda, Tanjidul", "affiliation": "Department of Biomedical Science, BCAS, University of Delhi, Delhi, India", "orcid": "0009-0001-9522-1492"},
+    {"name": "Biswas, Sriporna", "affiliation": "Department of Computer Science & Engineering, Chandigarh University, Punjab, India", "orcid": "0009-0009-6683-5477"}
+  ],
+  "license": "MIT",
+  "keywords": ["triple-negative breast cancer", "single-cell RNA-seq", "invasion", "XGBoost", "SHAP", "explainable machine learning"],
+  "version": "1.0.0"
+}

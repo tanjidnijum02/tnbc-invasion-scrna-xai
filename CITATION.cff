@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Code for: Integrative Single-Cell Transcriptomics and Explainable AI for Disease Mechanism and Biomarker Discovery in Triple-Negative Breast Cancer"
+version: 1.0.0
+date-released: "2026-10-20"
+license: MIT
+repository-code: "https://github.com/tanjidnijum02/tnbc-invasion-scrna-xai"
+authors:
+  - family-names: Huda
+    given-names: Tanjidul
+    orcid: "https://orcid.org/0009-0001-9522-1492"
+    email: tanjidnijum@gmail.com
+    affiliation: "Department of Biomedical Science, BCAS, University of Delhi, Delhi, India"
+  - family-names: Biswas
+    given-names: Sriporna
+    orcid: "https://orcid.org/0009-0009-6683-5477"
+    affiliation: "Department of Computer Science & Engineering, Chandigarh University, Punjab, India"
+keywords:
+  - triple-negative breast cancer
+  - single-cell RNA-seq
+  - invasion
+  - XGBoost
+  - SHAP
+  - explainable machine learning

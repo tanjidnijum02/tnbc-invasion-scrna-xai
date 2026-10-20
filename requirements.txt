@@ -1,0 +1,9 @@
+# Versions used for the reported sample-aware results (Python 3.12.15)
+scanpy==1.12.1
+numpy==2.5.4
+pandas==3.0.6
+scikit-learn==1.9.1
+xgboost==3.4.1
+shap==0.54.1
+gseapy==1.2.1
+matplotlib

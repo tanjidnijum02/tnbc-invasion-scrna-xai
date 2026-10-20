@@ -1,0 +1,1013 @@
+{
+ "data_check": {
+  "n_cells": 15294,
+  "n_genes": 36601,
+  "X_min": 0.0,
+  "X_max": 1.161899447441101,
+  "X_is_integer": false,
+  "has_raw": false,
+  "layers": [
+   "log1p_norm",
+   null
+  ],
+  "uns_log1p": "{}",
+  "log1p_norm_min": 0.0,
+  "log1p_norm_max": 1.161899447441101,
+  "X_equals_log1p_norm": true,
+  "mean_X_VIM": 1.0268011093139648,
+  "mean_X_RPL3": 0.9586687088012695,
+  "mean_X_MT-ATP6": 1.1157094240188599,
+  "mean_X_GAPDH": 1.0360692739486694,
+  "outlier_true": 0,
+  "mt_outlier_true": 0
+ },
+ "cells_per_label": {
+  "Invasive": 6289,
+  "NonInvasive": 5983,
+  "Control": 3022
+ },
+ "cells_per_sample": {
+  "PT": 3022,
+  "C8": 1702,
+  "B7": 1523,
+  "C7": 1427,
+  "B6": 1260,
+  "B5": 1206,
+  "C5": 1104,
+  "C3": 1071,
+  "B3": 1041,
+  "C6": 985,
+  "B8": 953
+ },
+ "qc_median_by_label": {
+  "total_counts": {
+   "Control": 30796.0,
+   "Invasive": 41051.0,
+   "NonInvasive": 50119.0
+  },
+  "n_genes_by_counts": {
+   "Control": 5638.5,
+   "Invasive": 6418.0,
+   "NonInvasive": 6964.0
+  },
+  "pct_counts_mt": {
+   "Control": 11.307999610900879,
+   "Invasive": 11.182000160217285,
+   "NonInvasive": 10.710000038146973
+  },
+  "pct_counts_ribo": {
+   "Control": 16.267000198364258,
+   "Invasive": 16.422000885009766,
+   "NonInvasive": 16.711999893188477
+  }
+ },
+ "expression_matrix_used": "log1p_norm",
+ "pseudobulk_DE": {
+  "n_samples": {
+   "Invasive": 5,
+   "NonInvasive": 5
+  },
+  "genes_tested": 11727,
+  "fdr_lt_0.05": 6651,
+  "fdr_lt_0.10": 7745,
+  "fdr_lt_0.05_up": 1313,
+  "fdr_lt_0.05_down": 5338,
+  "top20": [
+   {
+    "gene": "ROMO1",
+    "diff_log_expr": -0.03759799897670746,
+    "t": -31.995704650878906,
+    "p": 0.0,
+    "fdr": 7.4e-05
+   },
+   {
+    "gene": "OSBPL2",
+    "diff_log_expr": -0.041152000427246094,
+    "t": -22.164663314819336,
+    "p": 0.0,
+    "fdr": 7.4e-05
+   },
+   {
+    "gene": "COMMD6",
+    "diff_log_expr": -0.025086000561714172,
+    "t": -24.488740921020508,
+    "p": 0.0,
+    "fdr": 7.4e-05
+   },
+   {
+    "gene": "RPL36",
+    "diff_log_expr": -0.013198000378906727,
+    "t": -22.424274444580078,
+    "p": 0.0,
+    "fdr": 7.6e-05
+   },
+   {
+    "gene": "UACA",
+    "diff_log_expr": -0.030045999214053154,
+    "t": -20.11968421936035,
+    "p": 0.0,
+    "fdr": 0.000132
+   },
+   {
+    "gene": "ARF5",
+    "diff_log_expr": -0.060162998735904694,
+    "t": -20.420955657958984,
+    "p": 0.0,
+    "fdr": 0.000132
+   },
+   {
+    "gene": "RPL37",
+    "diff_log_expr": -0.021869000047445297,
+    "t": -18.93402671813965,
+    "p": 0.0,
+    "fdr": 0.000132
+   },
+   {
+    "gene": "RPL37A",
+    "diff_log_expr": -0.014411999844014645,
+    "t": -21.917835235595703,
+    "p": 0.0,
+    "fdr": 0.000143
+   },
+   {
+    "gene": "MTRNR2L8",
+    "diff_log_expr": -0.14294500648975372,
+    "t": -19.97724151611328,
+    "p": 0.0,
+    "fdr": 0.000143
+   },
+   {
+    "gene": "RPL7",
+    "diff_log_expr": 0.009851999580860138,
+    "t": 16.986228942871094,
+    "p": 0.0,
+    "fdr": 0.000231
+   },
+   {
+    "gene": "EEF1D",
+    "diff_log_expr": 0.013872000388801098,
+    "t": 16.314241409301758,
+    "p": 0.0,
+    "fdr": 0.000231
+   },
+   {
+    "gene": "ZNF395",
+    "diff_log_expr": -0.057133998721838,
+    "t": -16.858205795288086,
+    "p": 0.0,
+    "fdr": 0.000256
+   },
+   {
+    "gene": "ATP5F1E",
+    "diff_log_expr": -0.012800999917089939,
+    "t": -21.419452667236328,
+    "p": 0.0,
+    "fdr": 0.000267
+   },
+   {
+    "gene": "RPS21",
+    "diff_log_expr": -0.01671699993312359,
+    "t": -47.341434478759766,
+    "p": 0.0,
+    "fdr": 0.000267
+   },
+   {
+    "gene": "RPS28",
+    "diff_log_expr": -0.012512000277638435,
+    "t": -15.413345336914062,
+    "p": 0.0,
+    "fdr": 0.000267
+   },
+   {
+    "gene": "DNHD1",
+    "diff_log_expr": -0.015035999938845634,
+    "t": -16.512901306152344,
+    "p": 0.0,
+    "fdr": 0.00032
+   },
+   {
+    "gene": "SMAGP",
+    "diff_log_expr": 0.07073099911212921,
+    "t": 14.53732967376709,
+    "p": 9.999999974752427e-07,
+    "fdr": 0.000349
+   },
+   {
+    "gene": "CERS2",
+    "diff_log_expr": -0.04027299955487251,
+    "t": -15.532270431518555,
+    "p": 9.999999974752427e-07,
+    "fdr": 0.000381
+   },
+   {
+    "gene": "PLXNB2",
+    "diff_log_expr": -0.068401999771595,
+    "t": -15.455166816711426,
+    "p": 9.999999974752427e-07,
+    "fdr": 0.000403
+   },
+   {
+    "gene": "LPP",
+    "diff_log_expr": -0.06418299674987793,
+    "t": -14.511282920837402,
+    "p": 9.999999974752427e-07,
+    "fdr": 0.000403
+   }
+  ]
+ },
+ "original_top10_at_sample_level": [
+  {
+   "gene": "PHLDA2",
+   "diff_log_expr": 0.0751969963312149,
+   "p": 8.70000003487803e-05,
+   "fdr": 0.001473
+  },
+  {
+   "gene": "ANTXR2",
+   "diff_log_expr": 0.1606380045413971,
+   "p": 0.00010699999984353781,
+   "fdr": 0.0016
+  },
+  {
+   "gene": "VIM",
+   "diff_log_expr": 0.021459000185132027,
+   "p": 4.999999873689376e-05,
+   "fdr": 0.001242
+  },
+  {
+   "gene": "HMGA1",
+   "diff_log_expr": 0.0589819997549057,
+   "p": 0.00019500000053085387,
+   "fdr": 0.002011
+  },
+  {
+   "gene": "CALM1",
+   "diff_log_expr": 0.025237999856472015,
+   "p": 5.8000001445179805e-05,
+   "fdr": 0.001296
+  },
+  {
+   "gene": "MANCR",
+   "diff_log_expr": 0.1903190016746521,
+   "p": 0.00025099999038502574,
+   "fdr": 0.002243
+  },
+  {
+   "gene": "ARHGDIB",
+   "diff_log_expr": 0.19439199566841125,
+   "p": 0.00012099999730708078,
+   "fdr": 0.001671
+  },
+  {
+   "gene": "FOXP1",
+   "diff_log_expr": 0.11108099669218063,
+   "p": 0.0001140000022132881,
+   "fdr": 0.001638
+  },
+  {
+   "gene": "ATP5MC2",
+   "diff_log_expr": 0.028593000024557114,
+   "p": 0.00011899999663000926,
+   "fdr": 0.001661
+  },
+  {
+   "gene": "RPSA",
+   "diff_log_expr": 0.013565000146627426,
+   "p": 6.000000212225132e-06,
+   "fdr": 0.00072
+  }
+ ],
+ "raw_counts_available": false,
+ "n_features": {
+  "hvg": 2491,
+  "hvg_without_ribo_mito": 2485
+ },
+ "ml_grouped": {
+  "xgb_hvg": {
+   "pooled_auc": 0.9193082897966564,
+   "pooled_bal_acc": 0.8399204939781812,
+   "fold_auc_mean": 0.9182945216380547,
+   "fold_auc_min": 0.8868044175723443,
+   "fold_auc_max": 0.9454058211358666,
+   "folds": [
+    {
+     "fold": 0,
+     "held_out_groups": [
+      "7"
+     ],
+     "auc": 0.9022233715129977,
+     "bal_acc": 0.8200631660026292
+    },
+    {
+     "fold": 1,
+     "held_out_groups": [
+      "8"
+     ],
+     "auc": 0.9268504555470203,
+     "bal_acc": 0.847773682711408
+    },
+    {
+     "fold": 2,
+     "held_out_groups": [
+      "5"
+     ],
+     "auc": 0.9454058211358666,
+     "bal_acc": 0.8712483776768332
+    },
+    {
+     "fold": 3,
+     "held_out_groups": [
+      "6"
+     ],
+     "auc": 0.9301885424220449,
+     "bal_acc": 0.848865925388768
+    },
+    {
+     "fold": 4,
+     "held_out_groups": [
+      "3"
+     ],
+     "auc": 0.8868044175723443,
+     "bal_acc": 0.8070173314282485
+    }
+   ],
+   "per_sample": [
+    {
+     "sample": "B3",
+     "label": 0,
+     "mean_p_invasive": 0.2751,
+     "frac_called_invasive": 0.2123
+    },
+    {
+     "sample": "B5",
+     "label": 0,
+     "mean_p_invasive": 0.2157,
+     "frac_called_invasive": 0.1443
+    },
+    {
+     "sample": "B6",
+     "label": 0,
+     "mean_p_invasive": 0.2005,
+     "frac_called_invasive": 0.1246
+    },
+    {
+     "sample": "B7",
+     "label": 0,
+     "mean_p_invasive": 0.2429,
+     "frac_called_invasive": 0.1819
+    },
+    {
+     "sample": "B8",
+     "label": 0,
+     "mean_p_invasive": 0.2364,
+     "frac_called_invasive": 0.1658
+    },
+    {
+     "sample": "C3",
+     "label": 1,
+     "mean_p_invasive": 0.7577,
+     "frac_called_invasive": 0.8263
+    },
+    {
+     "sample": "C5",
+     "label": 1,
+     "mean_p_invasive": 0.7862,
+     "frac_called_invasive": 0.8868
+    },
+    {
+     "sample": "C6",
+     "label": 1,
+     "mean_p_invasive": 0.7586,
+     "frac_called_invasive": 0.8223
+    },
+    {
+     "sample": "C7",
+     "label": 1,
+     "mean_p_invasive": 0.7391,
+     "frac_called_invasive": 0.822
+    },
+    {
+     "sample": "C8",
+     "label": 1,
+     "mean_p_invasive": 0.7849,
+     "frac_called_invasive": 0.8613
+    }
+   ]
+  },
+  "xgb_hvg_no_ribo_mito": {
+   "pooled_auc": 0.9186333504902997,
+   "pooled_bal_acc": 0.8395595704764496,
+   "fold_auc_mean": 0.9174263237782153,
+   "fold_auc_min": 0.8824399436367567,
+   "fold_auc_max": 0.9422145011656693,
+   "folds": [
+    {
+     "fold": 0,
+     "held_out_groups": [
+      "7"
+     ],
+     "auc": 0.9028500621859357,
+     "bal_acc": 0.8238481568070248
+    },
+    {
+     "fold": 1,
+     "held_out_groups": [
+      "8"
+     ],
+     "auc": 0.9285014975283692,
+     "bal_acc": 0.851110291823828
+    },
+    {
+     "fold": 2,
+     "held_out_groups": [
+      "5"
+     ],
+     "auc": 0.9422145011656693,
+     "bal_acc": 0.8667193921695868
+    },
+    {
+     "fold": 3,
+     "held_out_groups": [
+      "6"
+     ],
+     "auc": 0.9311256143743452,
+     "bal_acc": 0.8542925630489082
+    },
+    {
+     "fold": 4,
+     "held_out_groups": [
+      "3"
+     ],
+     "auc": 0.8824399436367567,
+     "bal_acc": 0.7936898102180353
+    }
+   ],
+   "per_sample": [
+    {
+     "sample": "B3",
+     "label": 0,
+     "mean_p_invasive": 0.2798,
+     "frac_called_invasive": 0.2305
+    },
+    {
+     "sample": "B5",
+     "label": 0,
+     "mean_p_invasive": 0.2201,
+     "frac_called_invasive": 0.1443
+    },
+    {
+     "sample": "B6",
+     "label": 0,
+     "mean_p_invasive": 0.2012,
+     "frac_called_invasive": 0.1198
+    },
+    {
+     "sample": "B7",
+     "label": 0,
+     "mean_p_invasive": 0.2325,
+     "frac_called_invasive": 0.1694
+    },
+    {
+     "sample": "B8",
+     "label": 0,
+     "mean_p_invasive": 0.2308,
+     "frac_called_invasive": 0.1626
+    },
+    {
+     "sample": "C3",
+     "label": 1,
+     "mean_p_invasive": 0.7536,
+     "frac_called_invasive": 0.8179
+    },
+    {
+     "sample": "C5",
+     "label": 1,
+     "mean_p_invasive": 0.7877,
+     "frac_called_invasive": 0.8777
+    },
+    {
+     "sample": "C6",
+     "label": 1,
+     "mean_p_invasive": 0.7579,
+     "frac_called_invasive": 0.8284
+    },
+    {
+     "sample": "C7",
+     "label": 1,
+     "mean_p_invasive": 0.7322,
+     "frac_called_invasive": 0.8171
+    },
+    {
+     "sample": "C8",
+     "label": 1,
+     "mean_p_invasive": 0.7845,
+     "frac_called_invasive": 0.8649
+    }
+   ]
+  },
+  "xgb_qc_metrics_only": {
+   "pooled_auc": 0.6298535679894646,
+   "pooled_bal_acc": 0.5886677461903973,
+   "fold_auc_mean": 0.6391782566026857,
+   "fold_auc_min": 0.6095432729608014,
+   "fold_auc_max": 0.6617441612423135,
+   "folds": [
+    {
+     "fold": 0,
+     "held_out_groups": [
+      "7"
+     ],
+     "auc": 0.6326587282780592,
+     "bal_acc": 0.5896475946259204
+    },
+    {
+     "fold": 1,
+     "held_out_groups": [
+      "8"
+     ],
+     "auc": 0.6617441612423135,
+     "bal_acc": 0.6066827126410137
+    },
+    {
+     "fold": 2,
+     "held_out_groups": [
+      "5"
+     ],
+     "auc": 0.6578197478789627,
+     "bal_acc": 0.6053067993366501
+    },
+    {
+     "fold": 3,
+     "held_out_groups": [
+      "6"
+     ],
+     "auc": 0.6341253726532914,
+     "bal_acc": 0.6007211344774797
+    },
+    {
+     "fold": 4,
+     "held_out_groups": [
+      "3"
+     ],
+     "auc": 0.6095432729608014,
+     "bal_acc": 0.5716989966015225
+    }
+   ],
+   "per_sample": [
+    {
+     "sample": "B3",
+     "label": 0,
+     "mean_p_invasive": 0.4701,
+     "frac_called_invasive": 0.414
+    },
+    {
+     "sample": "B5",
+     "label": 0,
+     "mean_p_invasive": 0.4921,
+     "frac_called_invasive": 0.4561
+    },
+    {
+     "sample": "B6",
+     "label": 0,
+     "mean_p_invasive": 0.4823,
+     "frac_called_invasive": 0.427
+    },
+    {
+     "sample": "B7",
+     "label": 0,
+     "mean_p_invasive": 0.4783,
+     "frac_called_invasive": 0.436
+    },
+    {
+     "sample": "B8",
+     "label": 0,
+     "mean_p_invasive": 0.4349,
+     "frac_called_invasive": 0.3095
+    },
+    {
+     "sample": "C3",
+     "label": 1,
+     "mean_p_invasive": 0.5323,
+     "frac_called_invasive": 0.5574
+    },
+    {
+     "sample": "C5",
+     "label": 1,
+     "mean_p_invasive": 0.5809,
+     "frac_called_invasive": 0.6667
+    },
+    {
+     "sample": "C6",
+     "label": 1,
+     "mean_p_invasive": 0.5523,
+     "frac_called_invasive": 0.6284
+    },
+    {
+     "sample": "C7",
+     "label": 1,
+     "mean_p_invasive": 0.5547,
+     "frac_called_invasive": 0.6153
+    },
+    {
+     "sample": "C8",
+     "label": 1,
+     "mean_p_invasive": 0.5217,
+     "frac_called_invasive": 0.5229
+    }
+   ]
+  }
+ },
+ "ml_random_cell_split_binary": {
+  "auc": 0.9312855535765753,
+  "bal_acc": 0.8549736158095291
+ },
+ "ml_original_3class_reproduction": {
+  "classes": [
+   "Control",
+   "Invasive",
+   "NonInvasive"
+  ],
+  "accuracy": 0.9650212487741092,
+  "confusion_matrix": [
+   [
+    567,
+    14,
+    1
+   ],
+   [
+    3,
+    1212,
+    50
+   ],
+   [
+    0,
+    39,
+    1173
+   ]
+  ],
+  "report": {
+   "Control": {
+    "precision": 0.9947368421052631,
+    "recall": 0.9742268041237113,
+    "f1-score": 0.984375,
+    "support": 582.0
+   },
+   "Invasive": {
+    "precision": 0.958102766798419,
+    "recall": 0.958102766798419,
+    "f1-score": 0.958102766798419,
+    "support": 1265.0
+   },
+   "NonInvasive": {
+    "precision": 0.9583333333333334,
+    "recall": 0.9678217821782178,
+    "f1-score": 0.9630541871921182,
+    "support": 1212.0
+   },
+   "accuracy": 0.9650212487741092,
+   "macro avg": {
+    "precision": 0.9703909807456719,
+    "recall": 0.966717117700116,
+    "f1-score": 0.968510651330179,
+    "support": 3059.0
+   },
+   "weighted avg": {
+    "precision": 0.965164054300511,
+    "recall": 0.9650212487741092,
+    "f1-score": 0.9650630679558181,
+    "support": 3059.0
+   }
+  }
+ },
+ "shap_heldout": {
+  "held_out_groups": [
+   "7"
+  ],
+  "n_cells": 1000,
+  "top20": [
+   {
+    "gene": "CCL2",
+    "mean_abs_shap": 0.8026220202445984
+   },
+   {
+    "gene": "LGALS12",
+    "mean_abs_shap": 0.5763559937477112
+   },
+   {
+    "gene": "DUSP1",
+    "mean_abs_shap": 0.4231930077075958
+   },
+   {
+    "gene": "MTRNR2L8",
+    "mean_abs_shap": 0.24020299315452576
+   },
+   {
+    "gene": "PRSS2",
+    "mean_abs_shap": 0.23744800686836243
+   },
+   {
+    "gene": "CXCL3",
+    "mean_abs_shap": 0.21521799266338348
+   },
+   {
+    "gene": "KYNU",
+    "mean_abs_shap": 0.21391700208187103
+   },
+   {
+    "gene": "AL603756.1",
+    "mean_abs_shap": 0.2071480005979538
+   },
+   {
+    "gene": "CXCL2",
+    "mean_abs_shap": 0.18942900002002716
+   },
+   {
+    "gene": "DDIT4",
+    "mean_abs_shap": 0.18363399803638458
+   },
+   {
+    "gene": "ATP2B1-AS1",
+    "mean_abs_shap": 0.15565800666809082
+   },
+   {
+    "gene": "NFKBIZ",
+    "mean_abs_shap": 0.1507599949836731
+   },
+   {
+    "gene": "LSR",
+    "mean_abs_shap": 0.1497199982404709
+   },
+   {
+    "gene": "POU2F2",
+    "mean_abs_shap": 0.1450980007648468
+   },
+   {
+    "gene": "JUN",
+    "mean_abs_shap": 0.1362989991903305
+   },
+   {
+    "gene": "EPHB6",
+    "mean_abs_shap": 0.12564900517463684
+   },
+   {
+    "gene": "NEDD9",
+    "mean_abs_shap": 0.12434700131416321
+   },
+   {
+    "gene": "AGR2",
+    "mean_abs_shap": 0.1213349997997284
+   },
+   {
+    "gene": "CCDC3",
+    "mean_abs_shap": 0.1201850026845932
+   },
+   {
+    "gene": "IFITM3",
+    "mean_abs_shap": 0.12014900147914886
+   }
+  ],
+  "ribo_mito_in_top20": 0
+ },
+ "gsea": {
+  "KEGG_2021_Human": {
+   "fdr_lt_0.25": 0,
+   "top10": [
+    {
+     "Term": "Arrhythmogenic right ventricular cardiomyopathy",
+     "NES": "1.6402791070525795",
+     "FDR q-val": "0.31703720508166966"
+    },
+    {
+     "Term": "ABC transporters",
+     "NES": "-1.466716218104626",
+     "FDR q-val": "0.4456192773305475"
+    },
+    {
+     "Term": "Intestinal immune network for IgA production",
+     "NES": "-1.505852950091047",
+     "FDR q-val": "0.4486035150248879"
+    },
+    {
+     "Term": "Galactose metabolism",
+     "NES": "-1.5308239908286347",
+     "FDR q-val": "0.4618309469673693"
+    },
+    {
+     "Term": "Neuroactive ligand-receptor interaction",
+     "NES": "-1.5156251921493553",
+     "FDR q-val": "0.4622227001782093"
+    },
+    {
+     "Term": "Glycosphingolipid biosynthesis",
+     "NES": "-1.452727466023979",
+     "FDR q-val": "0.4676257037376684"
+    },
+    {
+     "Term": "Cholesterol metabolism",
+     "NES": "-1.4690996532961864",
+     "FDR q-val": "0.47504371435115617"
+    },
+    {
+     "Term": "Fat digestion and absorption",
+     "NES": "-1.478711259611669",
+     "FDR q-val": "0.477639341240091"
+    },
+    {
+     "Term": "Antigen processing and presentation",
+     "NES": "-1.487904102431921",
+     "FDR q-val": "0.48038161371597127"
+    },
+    {
+     "Term": "Citrate cycle (TCA cycle)",
+     "NES": "-1.5363052414005405",
+     "FDR q-val": "0.5236127327474959"
+    }
+   ]
+  },
+  "GO_Biological_Process_2023": {
+   "fdr_lt_0.25": 8,
+   "top10": [
+    {
+     "Term": "Hippo Signaling (GO:0035329)",
+     "NES": "-2.009187007130889",
+     "FDR q-val": "0.029158034618232333"
+    },
+    {
+     "Term": "Regulation Of Mitotic Cell Cycle Spindle Assembly Checkpoint (GO:0090266)",
+     "NES": "2.0794281528756238",
+     "FDR q-val": "0.04034467139745056"
+    },
+    {
+     "Term": "Positive Regulation Of Lamellipodium Assembly (GO:0010592)",
+     "NES": "2.0815164407805966",
+     "FDR q-val": "0.05295889682145965"
+    },
+    {
+     "Term": "Microtubule Cytoskeleton Organization Involved In Mitosis (GO:1902850)",
+     "NES": "2.1233093678274555",
+     "FDR q-val": "0.053792895196600736"
+    },
+    {
+     "Term": "ncRNA-mediated Post-Transcriptional Gene Silencing (GO:0035194)",
+     "NES": "-1.9121525374092376",
+     "FDR q-val": "0.06187982902313751"
+    },
+    {
+     "Term": "Secondary Alcohol Metabolic Process (GO:1902652)",
+     "NES": "-1.9143530235526323",
+     "FDR q-val": "0.0879600710983342"
+    },
+    {
+     "Term": "Regulation Of Lamellipodium Assembly (GO:0010591)",
+     "NES": "2.1453349406449282",
+     "FDR q-val": "0.09132282207795009"
+    },
+    {
+     "Term": "post-Golgi Vesicle-Mediated Transport (GO:0006892)",
+     "NES": "-1.8314481021411009",
+     "FDR q-val": "0.17276135511302657"
+    },
+    {
+     "Term": "Positive Regulation Of Calcium Ion Transmembrane Transporter Activity (GO:1901021)",
+     "NES": "1.7068082685442478",
+     "FDR q-val": "0.27412484092918926"
+    },
+    {
+     "Term": "Positive Regulation Of Microtubule Polymerization Or Depolymerization (GO:0031112)",
+     "NES": "1.6756548725943072",
+     "FDR q-val": "0.3020464115302672"
+    }
+   ]
+  },
+  "MSigDB_Hallmark_2020": {
+   "fdr_lt_0.25": 9,
+   "top10": [
+    {
+     "Term": "KRAS Signaling Up",
+     "NES": "2.303722256579227",
+     "FDR q-val": "0.001"
+    },
+    {
+     "Term": "Interferon Alpha Response",
+     "NES": "-1.9749489287007822",
+     "FDR q-val": "0.001"
+    },
+    {
+     "Term": "Interferon Gamma Response",
+     "NES": "-1.653042110987527",
+     "FDR q-val": "0.01946589785138576"
+    },
+    {
+     "Term": "E2F Targets",
+     "NES": "1.6174063499025164",
+     "FDR q-val": "0.03781228899392303"
+    },
+    {
+     "Term": "TNF-alpha Signaling via NF-kB",
+     "NES": "1.6228138986858356",
+     "FDR q-val": "0.05266711681296421"
+    },
+    {
+     "Term": "Coagulation",
+     "NES": "1.463174692794006",
+     "FDR q-val": "0.07900067521944633"
+    },
+    {
+     "Term": "Myogenesis",
+     "NES": "-1.4878412848228657",
+     "FDR q-val": "0.08487131463204191"
+    },
+    {
+     "Term": "Apical Surface",
+     "NES": "-1.4490255245959238",
+     "FDR q-val": "0.10784107409667712"
+    },
+    {
+     "Term": "G2-M Checkpoint",
+     "NES": "1.30134834049552",
+     "FDR q-val": "0.18474004051316678"
+    },
+    {
+     "Term": "Myc Targets V2",
+     "NES": "-1.3528220049798052",
+     "FDR q-val": "0.2595972137460805"
+    }
+   ]
+  }
+ },
+ "enrichr_sample_level": {
+  "n_input": 6651,
+  "top10": [
+   {
+    "Gene_set": "GO_Biological_Process_2023",
+    "Term": "Extracellular Structure Organization (GO:0043062)",
+    "Odds Ratio": "5.553005134400483",
+    "Adjusted P-value": "0.33042964838677413"
+   },
+   {
+    "Gene_set": "GO_Biological_Process_2023",
+    "Term": "External Encapsulating Structure Organization (GO:0045229)",
+    "Odds Ratio": "5.360712667975238",
+    "Adjusted P-value": "0.33042964838677413"
+   },
+   {
+    "Gene_set": "GO_Biological_Process_2023",
+    "Term": "Extracellular Matrix Organization (GO:0030198)",
+    "Odds Ratio": "2.7618008185538883",
+    "Adjusted P-value": "0.33042964838677413"
+   },
+   {
+    "Gene_set": "KEGG_2021_Human",
+    "Term": "Systemic lupus erythematosus",
+    "Odds Ratio": "3.8223327305605785",
+    "Adjusted P-value": "0.41913746207095043"
+   },
+   {
+    "Gene_set": "KEGG_2021_Human",
+    "Term": "Arachidonic acid metabolism",
+    "Odds Ratio": "3.8223327305605785",
+    "Adjusted P-value": "0.41913746207095043"
+   },
+   {
+    "Gene_set": "KEGG_2021_Human",
+    "Term": "Human T-cell leukemia virus 1 infection",
+    "Odds Ratio": "1.4188990825688073",
+    "Adjusted P-value": "0.41913746207095043"
+   },
+   {
+    "Gene_set": "KEGG_2021_Human",
+    "Term": "Neuroactive ligand-receptor interaction",
+    "Odds Ratio": "2.156207085965394",
+    "Adjusted P-value": "0.41913746207095043"
+   },
+   {
+    "Gene_set": "KEGG_2021_Human",
+    "Term": "Pathways in cancer",
+    "Odds Ratio": "1.2936269189021554",
+    "Adjusted P-value": "0.41913746207095043"
+   },
+   {
+    "Gene_set": "KEGG_2021_Human",
+    "Term": "Vascular smooth muscle contraction",
+    "Odds Ratio": "2.534329018439188",
+    "Adjusted P-value": "0.41913746207095043"
+   },
+   {
+    "Gene_set": "KEGG_2021_Human",
+    "Term": "Th17 cell differentiation",
+    "Odds Ratio": "1.9141689373297002",
+    "Adjusted P-value": "0.41913746207095043"
+   }
+  ]
+ },
+ "versions": {
+  "python": "3.12.15",
+  "scanpy": "1.12.1",
+  "numpy": "2.5.4",
+  "pandas": "3.0.6",
+  "scikit-learn": "1.9.1",
+  "xgboost": "3.4.1",
+  "shap": "0.54.1",
+  "gseapy": "1.2.1"
+ }
+}
